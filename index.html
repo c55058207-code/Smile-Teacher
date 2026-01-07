@@ -2,33 +2,18 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>학생용 웹앱</title>
+  <title>퍼즐버블 실행 인덱스</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    input { padding: 8px; margin: 10px; }
-    button { padding: 10px 20px; }
-    #result { margin-top: 20px; font-weight: bold; color: blue; }
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 80px; }
+    button { padding: 12px 24px; font-size: 16px; cursor: pointer; }
+    p { color: #555; }
   </style>
 </head>
 <body>
-  <h1>간단한 웹앱 예제</h1>
-  <p>이름을 입력하고 버튼을 눌러보세요!</p>
-
-  <input type="text" id="studentName" placeholder="이름 입력">
-  <button onclick="sayHello()">실행하기</button>
-
-  <div id="result"></div>
-
-  <script>
-    function sayHello() {
-      const name = document.getElementById("studentName").value;
-      const resultDiv = document.getElementById("result");
-      if (name) {
-        resultDiv.textContent = `안녕하세요, ${name}님! 웹앱 실행 성공 🎉`;
-      } else {
-        resultDiv.textContent = "이름을 입력해주세요!";
-      }
-    }
-  </script>
+  <h1>퍼즐버블 문제 출제 (ver3) 실행</h1>
+  <p>아래 버튼을 눌러 앱을 실행하세요.</p>
+  <button onclick="location.href='퍼즐버블문제출제가능버전(ver3).html'">
+    실행하기
+  </button>
 </body>
 </html>

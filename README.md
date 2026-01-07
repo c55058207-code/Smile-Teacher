@@ -1,0 +1,2 @@
+# Smile-Teacher
+Everyday smile!
